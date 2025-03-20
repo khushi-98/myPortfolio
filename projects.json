@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "title": "Pose Estimation using YOLOv8",
+        "description": "Pose estimation using the YOLOv8 model to detect and annotate human poses in images and videos.",
+        "image": "images/p1.png",
+        "github": "https://github.com/khushi-98/Pose-Estimation-using-YOLOv8"
+    },
+    {
+        "id": 2,
+        "title": "Disease Prediction System",
+        "description": "A machine learning-powered application that predicts potential diseases based on user-provided symptoms. Developed using Python and Streamlit for an interactive web-based interface.",
+        "image": "images/p2.jpeg",
+        "github": "https://github.com/khushi-98/ml-medication-project"
+    },
+    {
+        "id": 3,
+        "title": "EventoEMS - Event Management System",
+        "description": "A comprehensive event management system developed using the MERN stack to streamline campus event planning, registration, and ticket booking. Includes features like event scheduling, approval management, QR code-based ticketing, and an interactive event calendar.",
+        "image": "images/p3.png",
+        "github": "https://github.com/khushi-98/Thapar-Event-Management-System"
+    },
+    {
+        "id": 4,
+        "title": "🤖 ChatBot",
+        "description": "An AI-powered chatbot built using Google Gemini Pro API with Streamlit for an interactive user interface. Supports real-time chat history and dynamic responses.",
+        "image": "images/p4.jpeg",
+        "github": "https://github.com/khushi-98/ChatBot"
+    },
+    {
+        "id": 5,
+        "title": "Optical Character Recognition (OCR) Application",
+        "description": "A Streamlit-based OCR application using Hugging Face's TrOCR model and Tesseract OCR for extracting text from images. Includes keyword search functionality and real-time text processing capabilities.",
+        "image": "images/p5.png",
+        "github": "https://github.com/khushi-98/Optical-Character-Recognition-OCR-application-using-Streamlit"
+    },
+    {
+        "id": 6,
+        "title": "Movie Recommender System",
+        "description": "A recommendation system that suggests movies based on content-based filtering techniques, leveraging datasets from TMDB. Implements data preprocessing, feature engineering, and similarity measures to generate recommendations.",
+        "image": "images/p6.jpeg",
+        "github": "https://github.com/khushi-98/Movie-Recommender-System-"
+    },
+    {
+        "id": 7,
+        "title": "Resume Classification System",
+        "description": "A machine learning-based system for classifying resumes into job categories using TF-IDF vectorization and K-Nearest Neighbors (KNN). Implements text preprocessing, feature extraction, model training, and evaluation for accurate resume classification.",
+        "image": "images/p7.png",
+        "github": "https://github.com/khushi-98/Resume-Screening-App"
+    },
+    {
+        "id": 8,
+        "title": "Background Remover",
+        "description": "A Python-based project for removing white backgrounds from images and saving the output as a transparent PNG. Utilizes the PIL (Pillow) library for image processing and NumPy for efficient pixel manipulation.",
+        "image": "images/p8.webp",
+        "github": "https://github.com/khushi-98/BG-remover"
+    },
+    {
+        "id": 9,
+        "title": "Todo List using Django",
+        "description": "A full-stack web application for managing daily tasks, built using Django. Features task creation, updating, deletion, and user authentication.",
+        "image": "images/p9.png",
+        "github": "https://github.com/khushi-98/Todo-list-using-django"
+    },
+    {
+        "id": 10,
+        "title": "Toxic Comment Detection using Deep Learning",
+        "description": "A deep learning-based system for detecting toxicity in comments. Implements text preprocessing, tokenization, LSTM/GRU-based neural network, and real-time toxicity detection using a Gradio interface.",
+        "image": "images/p10.png",
+        "github": "https://github.com/khushi-98/Toxic-Comment-Detection-using-Deep-Learning-in-Python"
+    },
+    {
+        "id": 11,
+        "title": "Emotion Recognition Deep CNN Classifier",
+        "description": "A deep learning model using TensorFlow and Keras for classifying happy and sad emotions in images. Implements convolutional neural networks (CNN) for feature extraction and classification.",
+        "image": "images/p11.png",
+        "github": "https://github.com/khushi-98/Emotion-Recognition-Deep-CNN-Classifier-for-Happy-and-Sad-Images-Using-TensorFlow-and-Keras"
+    },
+    {
+        "id": 12,
+        "title": "Automated Screenshot Tool",
+        "description": "A Python script for automating screenshots with reusable functionality. Uses pyautogui for capturing screenshots and tkinter for user notifications. Saves screenshots with timestamped filenames in the Downloads folder on Windows.",
+        "image": "images/p12.jpg",
+        "github": "https://github.com/khushi-98/Automated-Screenshot-Tool-with-Reusable-Functionality"
+    },
+    {
+        "id": 13,
+        "title": "Voice Assistant: An Interactive AI Companion for Daily Tasks",
+        "description": "An AI-powered voice assistant designed to assist users with daily tasks, reminders, and information retrieval. Built using speech recognition, NLP, and text-to-speech technologies.",
+        "image": "images/p13.avif",
+        "github": "https://github.com/khushi-98/Voice-Assistant-"
+    },
+    {
+        "id": 14,
+        "title": "Real-Time Face Detection Using OpenCV and Haar Cascade Classifier",
+        "description": "A real-time face detection system using OpenCV and Haar Cascade Classifier. Captures live video, processes frames in grayscale, detects faces using detectMultiScale, and highlights them with bounding boxes. Continuously updates the video feed until stopped by the user.",
+        "image": "images/p14.jpeg",
+        "github": "https://github.com/khushi-98/Real-Time-Face-Detection-Using-OpenCV-and-Haar-Cascade-Classifier"
+    }
+]
