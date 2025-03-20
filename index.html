@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">                                                                                  
+<head>
+    <meta name="google-site-verification" content="QXq61sOnZGUP5nuhWSCk__9JBtbbBQ7AsjdFtyQbKaQ" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Khushi Bansal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8dc066fc07.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style-responsive.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo1.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>  
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a style="color:#fff; text-decoration: none; text-align-last: left; font-size: 20px;" href="feedback.html">Feedback</a></li> 
+                </ul>
+            </nav>
+            <div class="header-content">
+                <div class="about-col-1">
+                    <img src="images/dp2.png" alt="Khushi's Portfolio Image" class="portfolio-image" id="dp2-image">
+                </div>
+                <div class="about-col-2">
+                    <h1 style="font-size: xx-large;">Hello, I'm <span>Khushi Bansal</span>,</h1>
+                    <p style="font-size: xx-large;">
+                        Passionate Computer Science Engineering student skilled in Python, machine learning, 
+                        and AI-driven applications, eager to innovate and solve real-world challenges.
+                    </p>
+                    <br>
+                    <p id="title">| AI & Machine Learning Enthusiast |</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        const titles = [
+            "| AI & Machine Learning Enthusiast |",
+            "| Python & Automation Developer |",
+            "| Deep Learning Practitioner |",
+            "| Intelligent Software Engineer |",
+        ];
+        
+        let index = 0;
+    
+        function changeTitle() {
+            index = (index + 1) % titles.length;
+            document.getElementById("title").innerText = titles[index];
+        }
+    
+        setInterval(changeTitle, 2000); // Change every 2 seconds
+    </script>
+    
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/pp.png" class="centered-image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"><span>A</span>bout Me</h1><br>
+                    <p style="text-align:justify">
+                        Dedicated Computer Science student with expertise in Python development, machine learning, and web automation. Skilled in developing AI-driven applications and implementing deep learning techniques. Seeking opportunities to apply and expand technical skills in a challenging internship or entry-level position.                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills" style="background-color:#000; padding: 15px; border-radius: 8px; box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.1);">
+                        <ul style="list-style-type: none; padding: 0; display: flex; flex-wrap: wrap; gap: 10px;">
+                            <li style="background-color:#1EFF00; color:white; padding: 8px 12px; border-radius: 5px;">Python</li>
+                            <li style="background-color:#333; color:white; padding: 8px 12px; border-radius: 5px;">C/C++</li>
+                            <li style="background-color:#1EFF00; color:white; padding: 8px 12px; border-radius: 5px;">Machine Learning</li>
+                            <li style="background-color:#333; color:white; padding: 8px 12px; border-radius: 5px;">NLP</li>
+                            <li style="background-color:#1EFF00; color:white; padding: 8px 12px; border-radius: 5px;">Deep Learning</li>
+                            <li style="background-color:#333; color:white; padding: 8px 12px; border-radius: 5px;">Data Analysis</li>
+                            <li style="background-color:#1EFF00; color:white; padding: 8px 12px; border-radius: 5px;">Tkinter</li>
+                            <li style="background-color:#333; color:white; padding: 8px 12px; border-radius: 5px;">OpenCV</li>
+                            <li style="background-color:#1EFF00; color:white; padding: 8px 12px; border-radius: 5px;">Streamlit</li>
+                            <li style="background-color:#333; color:white; padding: 8px 12px; border-radius: 5px;">Django</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="experience" style="background-color:#000; padding: 20px; border-radius: 12px; box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.2), inset 0 0 10px rgba(30, 255, 0, 0.3); color: white; text-align: center;">
+                        <h2 style="color:rgb(30, 255, 0); text-shadow: 2px 2px 10px rgba(30, 255, 0);">Experience</h2>
+                        <ul style="list-style-type: none; padding: 0;">
+                            <li style="padding: 15px; margin: 10px 0; border-radius: 10px; background: linear-gradient(145deg, #111, #222); box-shadow: 3px 3px 10px rgba(30, 255, 0, 0.5);">
+                                <strong style="font-size: 1.2em;">Research Intern</strong><br>
+                                <span style="color:#1EFF00; font-style: italic;">THE AGNIRVA SPACE INTERNSHIP PROGRAM [Dec 2024 - Jan 2025]</span>
+                            </li>
+                            <li style="padding: 15px; margin: 10px 0; border-radius: 10px; background: linear-gradient(145deg, #111, #222); box-shadow: 3px 3px 10px rgba(30, 255, 0, 0.5);">
+                                <strong style="font-size: 1.2em;">Summer Intern</strong><br>
+                                <span style="color:#1EFF00; font-style: italic;">Thapar Institute of Engineering & Technology [June 2024 - July 2024]</span>
+                            </li>
+                            <li style="padding: 15px; margin: 10px 0; border-radius: 10px; background: linear-gradient(145deg, #111, #222); box-shadow: 3px 3px 10px rgba(30, 255, 0, 0.5);">
+                                <strong style="font-size: 1.2em;">Machine Learning Internship</strong><br>
+                                <span style="color:#1EFF00; font-style: italic;">Atharvo [Feb 2024 - March 2024]</span>
+                            </li>
+                            <li style="padding: 15px; margin: 10px 0; border-radius: 10px; background: linear-gradient(145deg, #111, #222); box-shadow: 3px 3px 10px rgba(30, 255, 0, 0.5);">
+                                <strong style="font-size: 1.2em;">Python Developer</strong><br>
+                                <span style="color:#1EFF00; font-style: italic;">InternIQ [Feb 2024 - March 2024]</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="education" style="background-color:#000; padding: 20px; border-radius: 12px; box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.2), inset 0 0 10px rgba(30, 255, 0, 0.3); color: white; text-align: center;">
+                        <h2 style="color:rgb(30, 255, 0); text-shadow: 2px 2px 10px rgba(30, 255, 0);">Education</h2>
+                        <ul style="list-style-type: none; padding: 0;">
+                            <li style="padding: 15px; margin: 10px 0; border-radius: 10px; background: linear-gradient(145deg, #111, #222); box-shadow: 3px 3px 10px rgba(30, 255, 0, 0.5);">
+                                <strong style="font-size: 1.2em;">B.Tech in Computer Engineering</strong><br>
+                                <span style="color:#1EFF00; font-style: italic;">Thapar Institute of Engineering and Technology, Patiala</span>
+                            </li>
+                            <li style="padding: 15px; margin: 10px 0; border-radius: 10px; background: linear-gradient(145deg, #111, #222); box-shadow: 3px 3px 10px rgba(30, 255, 0, 0.5);">
+                                <strong style="font-size: 1.2em;">12th Grade (Science)</strong><br>
+                                <span style="color:#1EFF00; font-style: italic;">Himland Public School, Dirba</span>
+                            </li>
+                            <li style="padding: 15px; margin: 10px 0; border-radius: 10px; background: linear-gradient(145deg, #111, #222); box-shadow: 3px 3px 10px rgba(30, 255, 0, 0.5);">
+                                <strong style="font-size: 1.2em;">10th Grade</strong><br>
+                                <span style="color:#1EFF00; font-style: italic;">D.A.V Public School, Sunam</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title"><span>My Projects</span></h1>
+            <div id="projects-list" class="projects-list">
+                <!-- Projects will be dynamically loaded here -->
+            </div>
+            <button id="see-more-projects" class="btn btn2" style="display: none;">See More Projects</button>
+        </div>
+    </div>
+    <br><br><br><br><br>
+
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"><span>My Services</span></h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-wand-sparkles"></i>
+                    <h2>Academic & Research Work</h2>
+                    <p>AI/NLP paper writing & figure production</p><br><br>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-hands-holding-circle"></i>
+                    <h2>AI & ML Development</h2>
+                    <p>Developing machine learning models, NLP applications, and deep learning solutions.</p>                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-file-word"></i>
+                    <h2>Technical Writing</h2>
+    <p>Creating research papers, project documentation, and technical blogs.</p>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <h2>Automation & Scripting</h2>
+    <p>Web automation, data scraping, and task automation using Python.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br>
+    
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane fa-lg" style="color: #4CC417;"></i> bansalkhushi402@gmail.com</p>
+                    <p><i class="fa-solid fa-phone fa-lg" style="color: #4CC417;"></i> 6283799566</p><br><br>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/khushibansal3204/"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                        <a href="https://github.com/khushi-98"><i class="fa-brands fa-github fa-lg"></i></a>
+                    </div><br><br>
+                    <a href="images/my-myresume.pdf" download class="btn btn2">Download CV</a> 
+                </div>
+                <div class="contact-right">
+                    <form method="post" action="https://script.google.com/macros/s/AKfycby4ZGAQIH_At6R-84tXLZn623Hg9WV2NXLMcoUIt5N7sgd9c0jI1NHR8_vl81au1CNMzQ/exec" id="contactForm">
+                        <input type="text" id="name" name="Name" placeholder="Your Name" required>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" id="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Khushi <i class="fa-solid fa-heart" style="color: #4CC417;"></i> MyPortfolio <i class="fa-sharp fa-regular fa-copyright"></i> 2024-2025</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        // Load projects from projects.json
+        fetch('projects.json')
+            .then(response => response.json())
+            .then(projects => {
+                const projectsList = document.getElementById('projects-list');
+                const seeMoreButton = document.getElementById('see-more-projects');
+                const initialProjects = projects.slice(0, 5);
+                const remainingProjects = projects.slice(5);
+
+                initialProjects.forEach(project => {
+                    const projectItem = document.createElement('div');
+                    projectItem.className = 'project-item';
+                    projectItem.innerHTML = `
+                        <img src="${project.image}" alt="${project.title}">
+                        <h3>${project.title}</h3>
+                        <p>${project.description}</p>
+                        <a href="${project.github}" target="_blank">View on GitHub</a>
+                    `;
+                    projectsList.appendChild(projectItem);
+                });
+
+                if (remainingProjects.length > 0) {
+                    seeMoreButton.style.display = 'block';
+                    seeMoreButton.addEventListener('click', () => {
+                        remainingProjects.forEach(project => {
+                            const projectItem = document.createElement('div');
+                            projectItem.className = 'project-item';
+                            projectItem.innerHTML = `
+                                <img src="${project.image}" alt="${project.title}">
+                                <h3>${project.title}</h3>
+                                <p>${project.description}</p>
+                                <a href="${project.github}" target="_blank">View on GitHub</a>
+                            `;
+                            projectsList.appendChild(projectItem);
+                        });
+                        seeMoreButton.style.display = 'none';
+                    });
+                }
+            });
+    </script>
+</body>
+</html>
